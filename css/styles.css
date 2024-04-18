@@ -19,7 +19,6 @@ header {
   grid-template-columns: auto 1fr;
   align-items: center;
   font-size: 15px;
-  padding: 28px;
   width: 100%;
 }
 
@@ -28,10 +27,6 @@ header {
   justify-content: center;
   gap: 16px;
   list-style: none;
-}
-
-.navigation li {
-  padding-inline: 16px;
 }
 
 .hero {
@@ -44,7 +39,6 @@ header {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  padding-inline: 16px;
 }
 
 .hero form {
@@ -70,7 +64,7 @@ input[type="text"] {
   box-shadow: inset 0 0 0 1px transparent;
 }
 
-input[type="submit"], .card .button, .button.download {
+.button {
   appearance: none;
   width: auto;
   line-height: 1.4em;
@@ -99,26 +93,6 @@ p.sub-text {
   font-size: 18px;
 }
 
-a:link,
-a:active,
-a:visited {
-  color: #EFEFEF;
-  text-decoration: none;
-}
-
-h1, h2, h3 {
-  font-style: normal;
-  font-weight: 400;
-}
-
-h2 {
-  font-size: 37px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
 .content {
   border-radius: 30px;
   background-color: #f6f7fa;
@@ -139,12 +113,6 @@ h3 {
   gap: 16px;
 }
 
-.two-cols {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-
 .card {
   display: flex;
   flex-direction: column;
@@ -160,18 +128,3 @@ h3 {
   background: unset;
   border-radius: unset;
 }
-
-/* .card .info p {
-  max-width: 398px;
-} */
-
-/* 
-@media only screen and (min-width: 768px) {
-  .content {
-    text-align: left;
-  }
-  .card {
-    align-items: flex-start;
-  }
-}
- */
